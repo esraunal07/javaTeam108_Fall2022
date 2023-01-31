@@ -1,0 +1,16 @@
+package day32_sets_maps;
+
+import java.util.Map;
+
+public class C08_SubeListesiOlusturma {
+    public static void main(String[] args) {
+
+        //Verilen sinif ve sube ismi ile sinif listesini yazdiran method olusturun.
+
+        Map<Integer, String> ogrenciMap=MapMethodDepo.ogrenciMapOlustur();
+
+        MapMethodDepo.subeListesiYazdirma(ogrenciMap, "10","H");
+
+
+    }
+}
