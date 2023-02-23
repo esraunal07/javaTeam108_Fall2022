@@ -1,8 +1,1 @@
-public class Mywork {
-
-    git init
-    git add README.md
-    git commit -m "first commit"
-    git branch -M main
-    git remote add origin https://github.com/esraunal07/Mywork.git
-    git push -u origin main
+public class Mywork {}
